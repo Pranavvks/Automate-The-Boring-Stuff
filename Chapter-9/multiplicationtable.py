@@ -6,7 +6,7 @@ for questionNumber in range (10):
     num1=questionNumber
     num2=questionNumber
 
-    prompt='#%s:%s x %s= '%(questionNumber,num1,num2)
+    prompt='%s:%s x %s= '%(questionNumber,num1,num2)
     try:
         pyip.inputStr(prompt,allowRegexes=['^%s$'%(num1*num2)],
         blockRegexes=[('.*'),'Incorrect!'],

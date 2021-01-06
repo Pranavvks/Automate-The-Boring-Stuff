@@ -30,7 +30,7 @@ except KeyboardInterrupt:
     print('\n Done')
     for x in copy1:
         final += str(x) + '\n'
-        print(final)
+    print(final)
     pyperclip.copy(final)
 
     

@@ -5,7 +5,6 @@ def addToInventory(inventory , addedItems):
     it=iter(addedItems)
     res_dct=dict(zip(it , it))
     return res_dct
-    #print(Convert(items_list))
     if addedItems in inventory :
         inventory.update(addedItems)
         for k,v in inventory.items():
